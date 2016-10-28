@@ -131,8 +131,8 @@ public class GmailQuickstart {
         JsonFactory JSON_FACTORY = new JacksonFactory();
         Credential credential = GmailQuickstart.authorize();
 
-        String to = "prakash.baskar@transsyssolutions.com";
-        String from = "transsyssolutions@gmail.com";
+        String to = "aaa@aaa.com"; \\pls provide your email id
+        String from = "aaa@aaa.com"; \\pls provide your email id
         String subject = "min fila";
         String bodyText = "hello bie";
         MimeMessage emailcontent = createEmail(to, from, subject, bodyText);
